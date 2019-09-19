@@ -4,6 +4,13 @@ take a insertion format of a binary search tree showing as a graph
 
 ### usage 
 
+from docker hub
+
+```
+docker run --rm -v "$(pwd)":/home mingfeipan/tree_visualizer  223,45,77,44,67,714,873,782,7,12
+```
+
+or 
 ```
 docker build -t tree_visualizer:1.0 https://github.com/MingfeiPan/tree_visualizer.git
 
