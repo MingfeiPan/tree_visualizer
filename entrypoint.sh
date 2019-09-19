@@ -9,5 +9,5 @@ cp template.dot input.dot
 echo $str >> ./input.dot
 echo } >> input.dot
 
-dot -Tpdf input.dot -o tree.pdf
+dot -Tpdf input.dot -o /home/tree.pdf
 rm input.dot
